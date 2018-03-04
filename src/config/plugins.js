@@ -9,8 +9,8 @@
 
 var internals = {};
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('AMSCM_XG_TEST', 'sa', '$lx%zh!2010#', {
-  host: '10.10.10.203',
+const sequelize = new Sequelize('CloudEasyShop', 'sa', 'sa', {
+  host: 'localhost',
   dialect: 'mssql',
 
   pool: {
